@@ -15,7 +15,10 @@ public class newClass {
 
         } else {
             System.out.printf("%s is not a number%n", x);
+            System.out.println(StringUtils.swapCase(x));
+            System.out.println(StringUtils.reverse(x));
         }
+
     }
 
 }
